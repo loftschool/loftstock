@@ -469,9 +469,9 @@ body {
 
 }
 
-.images .post a {
+/*.images .post a {
     padding-left: 5px;
-}
+}*/
 
 .count_statistic {
     font-size: 140px;
@@ -547,7 +547,9 @@ body {
     display: block;
     background: none;
     border: 1px solid #219ab3;
+    padding: 12px 10px;
 }
+/* Стили Виталия end */
 /*ленины стили*/
 @font-face {
     font-family: 'a_love_of_thunderregular';
