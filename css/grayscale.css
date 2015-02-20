@@ -547,7 +547,14 @@ body {
     display: block;
     background: none;
     border: 1px solid #219ab3;
-    padding: 12px 10px;
+    padding: 12px;
+}
+.action-wrapper-download__btn:hover {
+    color: #11505d;
+    border: 1px solid #11505d;
+}
+.action-wrapper-download__btn-icon {
+    margin-right: 12px;
 }
 /* Стили Виталия end */
 /*ленины стили*/
