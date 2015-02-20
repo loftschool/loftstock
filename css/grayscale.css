@@ -548,5 +548,41 @@ body {
     background: none;
     border: 1px solid #219ab3;
 }
+/*ленины стили*/
+@font-face {
+    font-family: 'a_love_of_thunderregular';
+    src: url('A Love of Thunder (actual)-webfont.eot');
+    src: url('A Love of Thunder (actual)-webfont.eot?#iefix') format('embedded-opentype'),
+         url('A Love of Thunder (actual)-webfont.woff2') format('woff2'),
+         url('A Love of Thunder (actual)-webfont.woff') format('woff'),
+         url('A Love of Thunder (actual)-webfont.ttf') format('truetype'),
+         url('A Love of Thunder (actual)-webfont.svg#a_love_of_thunderregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+.navbar-brand {
+    font-family: 'a_love_of_thunderregular', sans-serif;
+}
 
+ul.banner-social-buttons li {
+    margin-bottom: 20px;
+}
+
+.image {
+    margin-bottom: 2%;
+}
+
+.images .post ul li {
+    width: 32%;
+}
+
+.images .post ul li.category_title {
+    width: 11%;
+}
+
+.images .post .image__detail {
+    text-align: left;
+}
+
+/*ленины стили END*/
