@@ -540,7 +540,7 @@ body {
  *
  */
 
-.action-wrapper-download {}
+.action-wrapper-download { position: absolute; right: 0; }
 .action-wrapper-download__btn {
     display: block;
     background: none;
