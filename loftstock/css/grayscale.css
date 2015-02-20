@@ -536,5 +536,17 @@ body {
 
 /*-------------------*/
 
+/*!
+ *
+ * Стили Виталия
+ *
+ */
+
+.action-wrapper-download {}
+.action-wrapper-download__btn {
+    display: block;
+    background: none;
+    border: 1px #ffffff;
+}
 
 
