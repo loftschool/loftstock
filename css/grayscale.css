@@ -546,7 +546,7 @@ body {
 .action-wrapper-download__btn {
     display: block;
     background: none;
-    border: 1px #ffffff;
+    border: 1px solid #219ab3;
 }
 
 
