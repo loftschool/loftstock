@@ -564,6 +564,7 @@ ul.banner-social-buttons li {
 
 .images .post ul li {
     width: 32%;
+    vertical-align: middle;
 }
 
 .images .post ul li.category_title {
@@ -573,5 +574,31 @@ ul.banner-social-buttons li {
 .images .post .image__detail {
     text-align: left;
 }
+
+.images .post .img_title {
+    text-align: center;
+}
+
+.author_name {
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.author_photo {
+    float: left;
+}
+
+.images .post .post__tags li {
+    display: inline;
+}
+
+@media screen and (max-width: 1100px) {
+    .sidebar, .images {
+        width: 100%;
+        float: none;
+    }
+}
+
 
 /*ленины стили END*/
