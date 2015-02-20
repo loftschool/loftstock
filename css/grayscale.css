@@ -560,18 +560,27 @@ body {
 /*ленины стили*/
 @font-face {
     font-family: 'a_love_of_thunderregular';
-    src: url('A Love of Thunder (actual)-webfont.eot');
-    src: url('A Love of Thunder (actual)-webfont.eot?#iefix') format('embedded-opentype'),
-         url('A Love of Thunder (actual)-webfont.woff2') format('woff2'),
-         url('A Love of Thunder (actual)-webfont.woff') format('woff'),
-         url('A Love of Thunder (actual)-webfont.ttf') format('truetype'),
-         url('A Love of Thunder (actual)-webfont.svg#a_love_of_thunderregular') format('svg');
+    src: url('../fonts/A Love of Thunder (actual)-webfont.eot');
+    src: url('../fonts/A Love of Thunder (actual)-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/A Love of Thunder (actual)-webfont.woff2') format('woff2'),
+         url('../fonts/A Love of Thunder (actual)-webfont.woff') format('woff'),
+         url('../fonts/A Love of Thunder (actual)-webfont.ttf') format('truetype'),
+         url('../fonts/A Love of Thunder (actual)-webfont.svg#a_love_of_thunderregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-.navbar-brand {
+a.navbar-brand {
+    color: #fff; 
     font-family: 'a_love_of_thunderregular', sans-serif;
+}
+
+.top-nav-collapse a.navbar-brand span.light {
+    color: #fff;
+} 
+
+a.navbar-brand span.light {
+    color: #000;
 }
 
 ul.banner-social-buttons li {
@@ -584,6 +593,7 @@ ul.banner-social-buttons li {
 
 .images .post ul li {
     width: 32%;
+    vertical-align: middle;
 }
 
 .images .post ul li.category_title {
@@ -593,5 +603,31 @@ ul.banner-social-buttons li {
 .images .post .image__detail {
     text-align: left;
 }
+
+.images .post .img_title {
+    text-align: center;
+}
+
+.author_name {
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.author_photo {
+    float: left;
+}
+
+.images .post .post__tags li {
+    display: inline;
+}
+
+@media screen and (max-width: 1100px) {
+    .sidebar, .images {
+        width: 100%;
+        float: none;
+    }
+}
+
 
 /*ленины стили END*/
