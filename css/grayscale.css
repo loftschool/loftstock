@@ -536,6 +536,18 @@ body {
 
 /*-------------------*/
 
+/*!
+ *
+ * Стили Виталия
+ *
+ */
+
+.action-wrapper-download {}
+.action-wrapper-download__btn {
+    display: block;
+    background: none;
+    border: 1px solid #219ab3;
+}
 /*ленины стили*/
 @font-face {
     font-family: 'a_love_of_thunderregular';
@@ -547,7 +559,6 @@ body {
          url('A Love of Thunder (actual)-webfont.svg#a_love_of_thunderregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .navbar-brand {
