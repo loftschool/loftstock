@@ -674,3 +674,41 @@ ul.banner-social-buttons li {
 
 
 /*ленины стили END*/
+
+/*стили Романа START*/
+.pagination{
+    margin: 40px auto 0;
+/*  display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 0;
+*/
+}
+.pagination .screen-reader-text{
+    display: none;
+}
+
+.pagination .nav-links{
+    font-size: 20px;
+    padding: 10px 16px;
+    display: inline-block;
+    padding: 0;
+}
+
+.pagination .page-numbers{
+    margin: 0 5px;
+}
+
+.pagination .current{
+    font-size: 24px;
+    cursor: pointer;
+    bottom: -1px;
+    position: relative;
+    display: inline-block;
+}
+
+.pagination .dots{
+    color: #219ab3;;
+}
+
+/*стили Романа END*/
