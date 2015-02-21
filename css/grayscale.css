@@ -557,23 +557,30 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
+    border-radius: 3px;
+    padding-left: 0;
 }
 .pagination__list {
-    background: none repeat scroll 0 0 #d6dbdf;
-    border-radius: 3px;
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+    list-style: none;
+    background: none;
+    border: 1px solid #219ab3;
+    border-radius: 6px;
     color: #ffffff;
     display: inline-block;
     margin: 0;
     padding: 0;
 }
-.pagination__list-item {}
+.pagination__list-item {
+    display: inline-block;
+}
 .pagination__list-link {
-    background: none repeat scroll 0 0 padding-box white;
-    border: 5px solid #d6dbdf;
-    border-radius: 50px;
-    color: white;
+    background: none;
+    color: #ffffff;
     line-height: 16px;
-    margin: 7px 2px 6px;
+    margin: 10px 2px 6px;
     min-height: 16px;
     min-width: 0;
     padding: 0 4px;
