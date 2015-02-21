@@ -1,0 +1,19 @@
+{
+  "name": "loftstock",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "http://loftstock.org",
+  "author": "loft",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loftschool/loftstock"
+  },
+  "bugs": {
+    "url": "https://github.com/loftschool/loftstock"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0",
+    "gulp-less": "^3.0.0"
+  }
+}

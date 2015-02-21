@@ -553,6 +553,34 @@ body {
 .action-wrapper-download__btn-icon {
     margin-right: 12px;
 }
+.pagination {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.pagination__list {
+    background: none repeat scroll 0 0 #d6dbdf;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.pagination__list-item {}
+.pagination__list-link {
+    background: none repeat scroll 0 0 padding-box white;
+    border: 5px solid #d6dbdf;
+    border-radius: 50px;
+    color: white;
+    line-height: 16px;
+    margin: 7px 2px 6px;
+    min-height: 16px;
+    min-width: 0;
+    padding: 0 4px;
+    transition: background 0.2s ease-out 0s, border-color 0s ease-out 0s, color 0.2s ease-out 0s;
+}
+
+
 /* Стили Виталия end */
 /*ленины стили*/
 @font-face {
