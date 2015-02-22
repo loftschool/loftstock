@@ -553,6 +553,41 @@ body {
 .action-wrapper-download__btn-icon {
     margin-right: 12px;
 }
+.pagination {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 0;
+}
+.pagination__list {
+    font-size: 18px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+    list-style: none;
+    background: none;
+    border: 1px solid #219ab3;
+    border-radius: 6px;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.pagination__list-item {
+    display: inline-block;
+}
+.pagination__list-link {
+    background: none;
+    color: #ffffff;
+    line-height: 16px;
+    margin: 10px 2px 6px;
+    min-height: 16px;
+    min-width: 0;
+    padding: 0 4px;
+    transition: background 0.2s ease-out 0s, border-color 0s ease-out 0s, color 0.2s ease-out 0s;
+}
+
+
 /* Стили Виталия end */
 /*ленины стили*/
 @font-face {
@@ -639,3 +674,49 @@ ul.banner-social-buttons li {
 
 
 /*ленины стили END*/
+
+/*стили Романа START*/
+.pagination{
+    margin: 40px auto 0;
+/*  display: block;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 0;
+*/
+}
+.pagination .screen-reader-text{
+    display: none;
+}
+
+.pagination .nav-links{
+    font-size: 20px;
+    padding: 10px 16px;
+    display: inline-block;
+    padding: 0;
+}
+
+.pagination .page-numbers{
+    margin: 0 5px;
+}
+
+.pagination .current{
+    font-size: 24px;
+    cursor: pointer;
+    bottom: -1px;
+    position: relative;
+    display: inline-block;
+}
+
+.pagination .dots{
+    color: #219ab3;;
+}
+
+.categories ul{
+    padding-left: 0;
+}
+
+.tags {
+    padding-left: 4px;
+}
+
+/*стили Романа END*/

@@ -38,7 +38,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="logo navbar-brand page-scroll" href="#page-top">
+                <a class="logo navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <i class="fa fa-play-circle"></i>  <span class="light">Loft</span> Stock
                 </a>
             </div>
