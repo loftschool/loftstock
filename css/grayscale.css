@@ -711,4 +711,12 @@ ul.banner-social-buttons li {
     color: #219ab3;;
 }
 
+.categories ul{
+    padding-left: 0;
+}
+
+.tags {
+    padding-left: 4px;
+}
+
 /*стили Романа END*/

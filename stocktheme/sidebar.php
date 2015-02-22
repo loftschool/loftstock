@@ -35,15 +35,24 @@
     </div>
     <div class="tags">
         <h2 class="sidebar_title">Тэги</h2>
-            <ul>
-            <?php 
-                $tags = get_tags();
-                if ($tags) {
-                    foreach ($tags as $tag) {
-                        echo '<li><a href="' . get_tag_link( $tag->term_id ) . '" title="' . sprintf( __( "View all posts in %s" ), $tag->name ) . '" ' . '>' . $tag->name.'</a> </li> ';
-                    }
-                }
-             ?>
-            </ul>
+        <?php 
+            $args = array(
+              'smallest'                  => 10, 
+              'largest'                   => 22,
+              'unit'                      => 'pt', 
+              'number'                    => 50,  
+              'format'                    => 'flat',
+              'separator'                 => "\n",
+              'orderby'                   => 'count', 
+              'order'                     => 'RAND',
+              'exclude'                   => null, 
+              'include'                   => null, 
+              'link'                      => 'view', 
+              'taxonomy'                  => 'post_tag', 
+              'echo'                      => true,
+            );
+            wp_tag_cloud( $args );
+        ?>
+            
     </div>
 </div>
