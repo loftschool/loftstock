@@ -420,6 +420,10 @@ body {
     text-align: left;
 }
 
+.images .post ul li.post__download {
+    text-align: right;
+}
+
 .images .post .author img {
     width: 70px;
     height: 70px;
@@ -717,6 +721,19 @@ ul.banner-social-buttons li {
 
 .tags {
     padding-left: 4px;
+}
+
+.post__tags li {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.post-categories li {
+    font-size: 18px;
+}
+
+.post__download a[download]{
+    
 }
 
 /*стили Романа END*/
